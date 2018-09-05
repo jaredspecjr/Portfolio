@@ -1,0 +1,67 @@
+
+.container {
+  border: 1px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: tan;
+
+}
+.tv {
+  border: 20px solid black;
+  border-radius: 20px;
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+  align-self: center;
+  background-color: gray;
+}
+.menu {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+.about {
+  /*border: 1px solid red;*/
+  width: 0px;
+  height: 500px;
+  position: fixed;
+  top: 80px;
+  background-color: lightblue;
+}
+.about p{
+  display: none;
+}
+
+.buttonStyle {
+  margin-top: 5%;
+  margin-left: 4%;
+  text-align: left;
+  font-family: monospace;
+  font-size: 35px;
+  width: 300px;
+  clip-path: polygon(0 0%, 70% 0, 80% 100%, 0 100%);
+}
+
+.stand {
+  width: 100px;
+  border: 10px solid black;
+  height: 50px;
+  background-color: black;
+  align-self: center;
+}
+.stand2 {
+  width: 300px;
+  border: 10px solid black;
+  height: 5px;
+  background-color: black;
+  align-self: center;
+}
+
+
+/*.panel {
+  border: 1px solid black;
+}
+.panel:nth-child(1){
+  background-color: blue;
+}*/
