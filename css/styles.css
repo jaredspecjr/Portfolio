@@ -24,15 +24,23 @@
 }
 .about {
   /*border: 1px solid red;*/
+  transition: 0.3s;
   width: 0px;
   height: 500px;
   position: fixed;
   top: 80px;
   background-color: lightblue;
 }
-.about p{
+.about:hover{
+  /*transition: 0.3s;
+  width:800px;*/
+}
+
+/*this is needed for testing*/
+.about p {
   display: none;
 }
+
 
 .buttonStyle:hover {
   transition: 1s;
@@ -54,17 +62,17 @@
 
 
 .buttonStyle:nth-child(1){
-  margin-left: 75px;
+  margin-left: 100px;
 }
 
 .buttonStyle:nth-child(2){
-  margin-left: 140px;
+  margin-left: 160px;
 }
 .buttonStyle:nth-child(3){
-  margin-left: 200px;
+  margin-left: 220px;
 }
 .buttonStyle:nth-child(4){
-  margin-left: 265px;
+  margin-left: 280px;
 }
 
 .stand {
