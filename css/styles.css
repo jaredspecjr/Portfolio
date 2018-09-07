@@ -67,10 +67,12 @@
   font-size: 25px;
   color: #82D4BB;
 }
+
 .panel img {
   width: 80%;
   transform: translate(10px, 10px);
   border-radius: 50%;
+  border: 5px solid black;
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^ABOUT SECTION^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
@@ -146,10 +148,15 @@
   height: 50px;
   text-align: right;
 }
+.backStyle:hover{
+  cursor: pointer;
+  background-color: pink;
+}
   /*VVVVVVVVVVVVVV MENU BUTTONS VVVVVVVVVVVVVV*/
 .buttonStyle:hover {
   transition: 1s;
   width: 350px;
+  cursor: pointer;
 }
 .buttonStyle {
   transition: 1s;
