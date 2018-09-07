@@ -39,20 +39,40 @@
 }
 
 .info {
-  /*border: 1px solid red;*/
   width: 100%;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(9 , 1fr);
+  grid-template-rows: repeat(8, 1fr);
+
+}
+.panel:nth-child(1) {
+  grid-row: 1 / 5;
+  grid-column: 1 / 5;
+}
+.panel:nth-child(2) {
+  grid-column: 5 / 10;
+  grid-row: 1 / 8;
+
+}
+.panel:nth-child(3) {
+  grid-row: 8 / 9;
+  grid-column: 8 / 10;
+  transform: translate(55px, 8px);
+
+
 }
 /*this is needed for testing*/
 .hidden {
   display: none;
 }
-.info img {
-  align-self: flex-start;
+.panel img {
+  width: 80%;
+  transform: translate(10px, 10px);
   border-radius: 50%;
+}
+.info p {
+/*float: right;*/
 }
   /*VVVV this might need to change(postions) VVVV */
 .backStyle {
@@ -64,8 +84,9 @@
   color: #ffffff;
   clip-path: polygon(25% 0%, 100% 0, 100% 100%, 0 100% );
   width: 115px;
+  height: 50px;
   text-align: right;
-  align-self: flex-end;
+
 
 
   /*position: relative;
@@ -121,11 +142,3 @@
   background-color: black;
   align-self: center;
 }
-
-
-/*.panel {
-  border: 1px solid black;
-}
-.panel:nth-child(1){
-  background-color: blue;
-}*/
