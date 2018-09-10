@@ -81,7 +81,7 @@
 .skills {
   transition: 0.3s;
   /*CHANGE TO ZERO TO WORK, CHANGE TO 800PX FOR TESTING*/
-  width: 0px;
+  width: 800px;
   /*^^^^^^^^^^^^^^^^^^^^*/
   height: 500px;
   position: fixed;
@@ -94,7 +94,7 @@
   width:800px;
 }
 .hiddenSkills{
-  display: none;
+  /*display: none;*/
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^SKILLS SECTION ^^^^^^^^^^^^^^^^^^^^^^^^*/
 /*VVVVVVVVVVVVVVVVVPROJECTS SECTIONVVVVVVVVVVVVVVVVVVVVVVVV*/
@@ -115,6 +115,40 @@
 }
 .hiddenProjects{
   display: none;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.skillPanel {
+  border: 1px solid black;
+}
+.skillGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.circleStyle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: blue;
+}
+.circleStyle h1 {
+  text-align: center;
+  padding-top: 80px;
+  margin: 0;
+  font-family: monospace;
+  font-size: 40px;
+}
+#bigE {
+  padding-top: 40px;
+  font-size: 100px;
+}
+.circleE {
+
 }
 /*^^^^^^^^^^^^^PROJECTS SECTION^^^^^^^^^^^^^^^^^^*/
 /*VVVVVVVVVVVCONTACT ME SECTIONVVVVVVVVVVVVVVVV*/
