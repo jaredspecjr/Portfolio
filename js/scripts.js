@@ -4,6 +4,14 @@ $(document).ready(function(){
   },5000);
 });
 
+$("#kotaku").click(function(){
+  window.location.href = "https://jaredspecjr.github.io/kotaku-landing/";
+});
+
+$("#demoDay").click(function(){
+  window.location.href = "https://github.com/jaredspecjr/Capstone-game";
+});
+
 $("#aboutButton").click(function(){
   $(".about").toggleClass('aboutClicked');
   $(".hiddenAbout").fadeIn(1000);
