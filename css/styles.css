@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 .container {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@ body {
   /*^^^^^^^^^^^^^^^^^^^^*/
   height: 500px;
   position: absolute;
-  top: 71.2px;
+  top: 70.2px;
   background-color: #1A5B75;
   display: flex;
 }
@@ -86,7 +86,7 @@ body {
   /*^^^^^^^^^^^^^^^^^^^^*/
   height: 500px;
   position: absolute;
-  top: 71.2px;
+  top: 70.2px;
   background-color: #1A5B75;
   display: flex;
   text-align: center;
@@ -152,7 +152,7 @@ body {
   /*^^^^^^^^^^^^^^^^^^^^*/
   height: 500px;
   position: absolute;
-  top: 71.2px;
+  top: 70.2px;
   background-color: #1A5B75;
   display: flex;
 }
@@ -235,7 +235,7 @@ body {
   /*^^^^^^^^^^^^^^^^^^^^*/
   height: 500px;
   position: absolute;
-  top: 71.2px;
+  top: 70.2px;
   background-color: #1A5B75;
   display: flex;
   flex-direction: column;
@@ -284,7 +284,7 @@ body {
   width: 800px;
   height: 500px;
   position: absolute;
-  top: 71.2px;
+  top: 70.2px;
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -386,4 +386,8 @@ body {
   width: 50px;
   height: 100%;
   background-color: #967f69;
+}
+.gameBox {
+  transform: translate(50px, -108px);
+
 }
