@@ -389,5 +389,14 @@ body {
 }
 .gameBox {
   transform: translate(50px, -108px);
+}
+.controller {
+  transform: translate(-590px, 150px);
+  position: absolute;
+}
+.cord {
+  transform: translate(154px, -130px);
+  position: absolute;
+
 
 }
