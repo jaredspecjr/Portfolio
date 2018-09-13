@@ -57,7 +57,7 @@
 .panel:nth-child(3) {
   grid-row: 8 / 9;
   grid-column: 8 / 10;
-  transform: translate(55px, 8px);
+  transform: translate(74px, 27px);
 }
 /*this is needed for testing*/
 .hiddenAbout {
@@ -140,6 +140,7 @@
 }
 .description {
   color: #82D4BB;
+  padding: 15px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^SKILLS SECTION ^^^^^^^^^^^^^^^^^^^^^^^^*/
 /*VVVVVVVVVVVVVVVVVPROJECTS SECTIONVVVVVVVVVVVVVVVVVVVVVVVV*/
@@ -235,6 +236,9 @@
   top: 80px;
   background-color: #1A5B75;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 .contact.contactClicked{
   transition: 0.3s;
@@ -243,7 +247,63 @@
 .hiddenContact{
   display: none;
 }
+.contactInfo{
+  font-size: 50px;
+  font-family: monospace;
+  font-style: italic;
+  padding-left: 10%;
+}
+.links:hover{
+  text-shadow: 2px 5px black;
+}
+.links{
+  margin: 50px;
+  width: 240px;
+  /*border: 1px solid yellow;*/
+}
+.links a{
+  color: #82D4BB;
+  text-decoration: none;
+}
+.contactBack{
+  align-self: flex-end;
+  transform: translate(0px, -32px);
+}
+/*.test{
+  height:2px;
+  width:100%;
+  background-color: black;
+  border-radius: 50%;
+}*/
+
 /*^^^^^^^^^CONTACT ME SECTION^^^^^^^^^^^^^^^^^^*/
+/*VVVVVVVVVV--INTRO SECTION--VVVVVVVVVVVVVVVVVV*/
+.intro {
+  width: 800px;
+  height: 500px;
+  position: fixed;
+  top: 80px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: introFade;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+}
+.intro h1 {
+  margin: 25px;
+  align-self: center;
+  font-size: 75px;
+  /*color: rgba(255, 255, 255, 0.8);*/
+}
+
+@keyframes introFade{
+  from {background-color: black; color: black;}
+  to {background-color: #1e1e1e; color: rgba(255, 255, 255, 0.8);}
+}
+
+/*^^^^^^^^^^^^INTRO SECTION^^^^^^^^^^^^^^^^^^*/
 .backStyle {
   font-size: 35px;
   font-style: italic;

@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  setTimeout(function(){
+    $(".introHide").fadeOut(1600);
+  },5000);
+});
+
 $("#aboutButton").click(function(){
   $(".about").toggleClass('aboutClicked');
   $(".hiddenAbout").fadeIn(1000);
