@@ -5,7 +5,7 @@ $(document).ready(function(){
 });
 
 $("#kotaku").click(function(){
-  window.location.href = "https://jaredspecjr.github.io/kotaku-landing/";
+  window.location.href = "https://jaredspecjr.github.io/kotaku-mock/";
 });
 
 $("#demoDay").click(function(){

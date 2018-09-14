@@ -138,11 +138,17 @@ body {
 }
 #skillsBack {
   align-self: flex-end;
+  transform: translate(1px, -16px);
 }
 .description {
   color: #82D4BB;
   padding: 15px;
 }
+.skillGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /*^^^^^^^^^^^^^^^^^^^^^^^SKILLS SECTION ^^^^^^^^^^^^^^^^^^^^^^^^*/
 /*VVVVVVVVVVVVVVVVVPROJECTS SECTIONVVVVVVVVVVVVVVVVVVVVVVVV*/
 .projects {
@@ -391,7 +397,7 @@ body {
   transform: translate(50px, -108px);
 }
 .controller {
-  transform: translate(-590px, 150px);
+  transform: translate(-590px, 160px);
   position: absolute;
 }
 .cord {
