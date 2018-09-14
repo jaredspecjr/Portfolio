@@ -12,6 +12,14 @@ $("#demoDay").click(function(){
   window.location.href = "https://github.com/jaredspecjr/Capstone-game";
 });
 
+$("#bikeIndex").click(function(){
+  window.location.href = "https://github.com/jaredspecjr/bike-index";
+});
+
+$("#beanLounge").click(function(){
+  window.location.href = "https://github.com/jaredspecjr/The-Bean-Lounge";
+});
+
 $("#aboutButton").click(function(){
   $(".about").toggleClass('aboutClicked');
   $(".hiddenAbout").fadeIn(1000);
