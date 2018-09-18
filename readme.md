@@ -1,4 +1,12 @@
 # Portfolio - - - Ichor Studios
+find better font style and size for every page. <----- done
+find better colors for font. <----- done
+make contact me icons. <---- done
+put resume in about me. <-------- done
+put controller on desk <----- done
+freepick.com ?
+change Epicodus in skills section to prototyping experience.
+change background to image
 
 
 ### By Jared Lutz
