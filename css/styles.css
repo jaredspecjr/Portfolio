@@ -268,14 +268,14 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.contact.contactClicked{
+.contact.contactClicked {
   transition: 0.3s;
   width:800px;
 }
-.hiddenContact{
+.hiddenContact {
   display: none;
 }
-.contactInfo{
+.contactInfo {
   display: flex;
   justify-content: space-around;
   margin-top: 180px;
