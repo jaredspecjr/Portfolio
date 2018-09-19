@@ -293,8 +293,7 @@ body {
   position: absolute;
   top: 70.2px;
   background-color: black;
-  /*_______________________________________________________change*/
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   animation-name: introFade;
@@ -307,10 +306,10 @@ body {
   font-size: 75px;
   /*color: rgba(255, 255, 255, 0.8);*/
 }
-/*@keyframes introFade{
+@keyframes introFade{
   from {background-color: black; color: black;}
   to {background-color: #1e1e1e; color: rgba(255, 255, 255, 0.8);}
-}*/
+}
 /*^^^^^^^^^^^^INTRO SECTION^^^^^^^^^^^^^^^^^^*/
 .backStyle {
   font-size: 35px;
