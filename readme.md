@@ -4,10 +4,10 @@ find better colors for font. <----- done
 make contact me icons. <---- done
 put resume in about me. <-------- done
 change Epicodus in skills section to prototyping experience.  <----- done
+add links instead to projects < ----- done
 freepick.com ?
 put controller on desk
 change background to image
-add links instead to projects
 
 
 ### By Jared Lutz
@@ -20,7 +20,7 @@ html and css and Jquery were used to create this site.
 
 #IMPORTANT
 
-You may view a hosted version of this site on http://jaredspecjr.github.io/kotaku-landing.
+You may view a hosted version of this site on http://jaredspecjr.github.io/Portfolio.
 
 ## Setup and Installation requirements
 
