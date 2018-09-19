@@ -6,19 +6,19 @@ $(document).ready(function(){
 
 
 $("#kotaku").click(function(){
-  window.location.href = "https://jaredspecjr.github.io/kotaku-mock/";
+  window.open("https://jaredspecjr.github.io/kotaku-mock/", "_blank");
 });
 
 $("#demoDay").click(function(){
-  window.location.href = "https://github.com/jaredspecjr/Capstone-game";
+  window.open("https://github.com/jaredspecjr/Capstone-game", "_blank");
 });
 
 $("#bikeIndex").click(function(){
-  window.location.href = "https://github.com/jaredspecjr/bike-index";
+  window.open("https://github.com/jaredspecjr/bike-index", "_blank");
 });
 
 $("#beanLounge").click(function(){
-  window.location.href = "https://github.com/jaredspecjr/The-Bean-Lounge";
+  window.open("https://github.com/jaredspecjr/The-Bean-Lounge","_blank");
 });
 
 $("#aboutButton").click(function(){
