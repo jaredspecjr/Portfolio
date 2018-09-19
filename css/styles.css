@@ -397,10 +397,11 @@ body {
   transform: translate(50px, -108px);
 }
 .controller {
-  transform: translate(-590px, 160px);
+  width: 100px;
+  transform: translate(-680px, -108px);
   position: absolute;
 }
 .cord {
-  transform: translate(154px, -130px);
+  transform: translate(250px, -275px);
   position: absolute;
 }
