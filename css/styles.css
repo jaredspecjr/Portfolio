@@ -175,7 +175,7 @@ body {
 .projects {
   transition: 0.3s;
   /*CHANGE TO ZERO TO WORK, CHANGE TO 800PX FOR TESTING*/
-  width: 800px;
+  width: 0px;
   /*^^^^^^^^^^^^^^^^^^^^*/
   height: 500px;
   position: absolute;
@@ -215,6 +215,7 @@ body {
   text-shadow: 2px 2px black;
 }
 .projectPanel p {
+  padding: 70px;
   padding-left: 60px;
   padding-right: 60px;
   margin: 0;
@@ -261,19 +262,19 @@ body {
 }
 @keyframes centerK {
   from {border: 3px solid black; margin: 0;}
-  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(130px, 155px); z-index: 1; color: white; width: 550px; height: 485px;}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(130px, 155px); z-index: 1; color: white; width: 550px; height: 485px; position: relative;}
 }
 @keyframes centerD {
   from {border: 3px solid black; margin: 0;}
-  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(-130px, 155px); z-index: 1; color: white; width: 550px; height: 485px}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(-130px, 155px); z-index: 1; color: white; width: 550px; height: 485px; position: relative;}
 }
 @keyframes centerB {
   from {border: 3px solid black; margin: 0;}
-  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(130px, -51px); z-index: 1; color: white; width: 550px; height: 485px}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(130px, -51px); z-index: 1; color: white; width: 550px; height: 485px; position: relative;}
 }
 @keyframes centerL {
   from {border: 3px solid black; margin: 0;}
-  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(-130px, -51px); z-index: 1; color: white; width: 550px; height: 485px}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(-130px, -51px); z-index: 1; color: white; width: 550px; height: 485px; position: relative;}
 }
 #kotakuGrow:hover {
   animation-name: centerK;
@@ -320,7 +321,7 @@ body {
   align-content: flex-end;
 }
 .hiddenProjects {
-  /*display: none;*/
+  display: none;
 }
 /*^^^^^^^^^^^^^PROJECTS SECTION^^^^^^^^^^^^^^^^^^*/
 /*VVVVVVVVVVVCONTACT ME SECTIONVVVVVVVVVVVVVVVV*/
@@ -361,7 +362,7 @@ body {
   position: absolute;
   top: 70.2px;
   background-color: black;
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   animation-name: introFade;
