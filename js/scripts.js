@@ -1,8 +1,8 @@
-$(document).ready(function(){
-  setTimeout(function(){
-    $(".introHide").fadeOut(1600);
-  },5000);
-});
+// $(document).ready(function(){
+//   setTimeout(function(){
+//     $(".introHide").fadeOut(1600);
+//   },5000);
+// });
 
 
 $("#kotaku").click(function(){

@@ -175,7 +175,7 @@ body {
 .projects {
   transition: 0.3s;
   /*CHANGE TO ZERO TO WORK, CHANGE TO 800PX FOR TESTING*/
-  width: 0px;
+  width: 800px;
   /*^^^^^^^^^^^^^^^^^^^^*/
   height: 500px;
   position: absolute;
@@ -195,25 +195,27 @@ body {
 }
 .projectPanel {
   transform: translateY(40px);
-  background-color: rgb(221, 234, 255, 0.2);
+  background-color: #407489;
   padding-left: 6px;
   font-family: 'Karla';
-  font-size: 13px;
+  font-size: 22px;
   padding-top: 8px;
-  color: white;
+  color: #407489;
   border: 3px solid black;
+  overflow: hidden;
 }
 .projectPanel h1 {
   margin: 0;
-  text-decoration: underline;
+  color: white;
   text-shadow: 2px 2px black;
 }
 .projectPanel p {
   padding-right: 15px;
-  font-size: 15px;
+  font-size: 25px;
 }
 .projectsFlex{
   display: flex;
+  align-content: space-around;
   flex-direction: column;
 }
 .link {
@@ -228,14 +230,42 @@ body {
   cursor: pointer;
   background-color: red;
 }
-.projectPanel:hover {
-  animation-name: grow;
+
+@keyframes centerK {
+  from {border: 3px solid black; margin: 0;}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(130px, 155px); z-index: 1; color: white;}
+}
+@keyframes centerD {
+  from {border: 3px solid black; margin: 0;}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(-130px, 155px); z-index: 1; color: white;}
+}
+@keyframes centerB {
+  from {border: 3px solid black; margin: 0;}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(130px, -51px); z-index: 1; color: white;}
+}
+@keyframes centerL {
+  from {border: 3px solid black; margin: 0;}
+  to {border: 3px ridge lightgreen; margin: -155px; transform: translate(-130px, -51px); z-index: 1; color: white;}
+}
+#kotakuGrow:hover {
+  animation-name: centerK;
   animation-duration: .5s;
   animation-fill-mode: forwards;
 }
-@keyframes grow {
-  from {border: 3px solid black; margin: 0;}
-  to {border: 3px ridge lightgreen; margin: -20px;}
+#demoGrow:hover {
+  animation-name: centerD;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+#bikeGrow:hover {
+  animation-name: centerB;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+#beanGrow:hover {
+  animation-name: centerL;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
 }
 .projectPanel:nth-child(1){
   grid-column:  2 / 4;
@@ -259,7 +289,7 @@ body {
   transform: translate(2px, 34px);
 }
 .hiddenProjects {
-  display: none;
+  /*display: none;*/
 }
 /*^^^^^^^^^^^^^PROJECTS SECTION^^^^^^^^^^^^^^^^^^*/
 /*VVVVVVVVVVVCONTACT ME SECTIONVVVVVVVVVVVVVVVV*/
@@ -300,7 +330,7 @@ body {
   position: absolute;
   top: 70.2px;
   background-color: black;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   animation-name: introFade;
