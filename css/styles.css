@@ -135,19 +135,19 @@ body {
   justify-content: space-around;
 }
 .circleStyle {
-  margin-top: 50px;
-  height: 200px;
-  width: 200px;
+  margin-top: 80px;
+  height: 170px;
+  width: 170px;
   border-radius: 50%;
   background-color: #022B3A;
   border: 5px solid black;
   text-align: center;
 }
 .circleStyle h1 {
-  padding-top: 80px;
+  padding-top: 68px;
   margin: 0;
   font-family: 'Karla';
-  font-size: 40px;
+  font-size: 30px;
   color: #5BC0BE;
 }
 #skillsBack {
@@ -156,15 +156,17 @@ body {
 .description {
   font-family: 'Karla';
   color: white;
-  font-size: 17px;
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 14px;
+  padding-top: 20px;
+  padding-left: 15px;
+  /*padding-right: 20px;*/
   margin: 0;
+  width: 180px;
 }
-.skillGrid{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.descriptionFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   /*border: 1px solid yellow;*/
 }
 
@@ -198,7 +200,7 @@ body {
   font-family: 'Karla';
   font-size: 13px;
   padding-top: 8px;
-  color: #C3F3C0;
+  color: white;
   border: 3px solid black;
 }
 .projectPanel h1 {
@@ -215,12 +217,16 @@ body {
   flex-direction: column;
 }
 .link {
+  border-radius: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin: 0;
+  margin-right: 15px;
   align-self: flex-end;
 }
 .link:hover {
-  text-decoration: underline;
   cursor: pointer;
+  background-color: red;
 }
 .projectPanel:hover {
   animation-name: grow;
