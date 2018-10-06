@@ -14,11 +14,11 @@ $("#demoDay").click(function(){
 });
 
 $("#bikeIndex").click(function(){
-  window.open("https://github.com/jaredspecjr/bike-index", "_blank");
+  window.open("https://jaredspecjr.github.io/bike-index/", "_blank");
 });
 
 $("#beanLounge").click(function(){
-  window.open("https://github.com/jaredspecjr/The-Bean-Lounge","_blank");
+  window.open("https://bean-lounge.firebaseapp.com/","_blank");
 });
 
 $("#aboutButton").click(function(){
