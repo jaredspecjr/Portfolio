@@ -10,7 +10,7 @@ $("#kotaku").click(function(){
 });
 
 $("#demoDay").click(function(){
-  window.open("https://github.com/jaredspecjr/Capstone-game", "_blank");
+  window.open("https://console.firebase.google.com/project/videogame-bef13/overview", "_blank");
 });
 
 $("#bikeIndex").click(function(){
