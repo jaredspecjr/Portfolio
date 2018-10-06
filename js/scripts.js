@@ -10,7 +10,7 @@ $("#kotaku").click(function(){
 });
 
 $("#demoDay").click(function(){
-  window.open("https://console.firebase.google.com/project/videogame-bef13/overview", "_blank");
+  window.open("https://videogame-bef13.firebaseapp.com/#/", "_blank");
 });
 
 $("#bikeIndex").click(function(){
